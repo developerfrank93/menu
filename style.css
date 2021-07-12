@@ -1,0 +1,70 @@
+html{
+  height: 100%;
+  margin: 0px;
+}
+body{
+  height: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+#box{
+  width: 200%;
+  height: 100%;
+}
+#menu{
+  width: 250px;
+  height: 100%;
+  background-color: #999999;
+  float: left;
+}
+#center{
+  width: 80%;
+  height: 100%;
+  background-color: #DDDDDD;
+  float: left;
+  position: relative;
+}
+.link1{
+  width: 250px;
+  height: 40px;
+  background-color: #770000;
+  float: left;
+  border: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #DD0000 #DD0000 #999999 #DD0000;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.link1:hover{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+.link2{
+  width: 250px;
+  height: 20px;
+  background-color: #FF0000;
+  float: left;
+  border: solid;
+  border-width: 0px 0px 3px 0px;
+  border-color: #DD0000 #DD0000 #999999 #DD0000;
+  text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-size: 15px;
+  padding-top: 3px;
+}
+.link2:hover{
+  background-color: #770000;
+  color: #FFFFFF;
+}
+
+
+#blu{
+
+width: 50px;
+
+
+}
