@@ -1,70 +1,93 @@
-html{
-  height: 100%;
-  margin: 0px;
-}
 body{
-  height: 100%;
-  margin: 0px;
-  overflow-x: hidden;
+background-repeat: no-repeat;
+background-size: 200%;
 }
-#box{
-  width: 200%;
-  height: 100%;
+#boxlog{
+	width: 300px;
+	height: 415px;
+	margin: auto;
+	border: solid;
+  border-width: 3px 3px 3px 3px;
+  border-color: #00000 #000000 #000000 #000000;
+  background-position: center;
+  }
+
+#bxlg0{
+	width: 300px;
+	height: 70px;
+	background-color: yellow;
+  border: solid;
+  border-width: 0px 0px 3px 0px;
 }
-#menu{
-  width: 250px;
-  height: 100%;
-  background-color: #999999;
+#bxlg1{
+	width: 300px;
+	height: 70px;
+	font-size: 40px;
   float: left;
+	background-color: yellow;
+	color: blue;
+  font-style: italic;
+	text-align:center;
 }
-#center{
-  width: 80%;
-  height: 100%;
-  background-color: #DDDDDD;
-  float: left;
-  position: relative;
+
+.bxlgimg{
+	width: 50px;
+  height: 50px;
+
 }
-.link1{
-  width: 250px;
+#boxlogcenter{
+	width: 300px;
+	height: 200px;
+	float: left;
+}
+.boxinp{
+	width: 300px;
+	height: 20px;
+	margin-left: 25px;
+	margin-top: 25px;
+	font-family: cursive;
+  color: #FF0000;
+}
+.inp{
+	width: 240px;
+	height: 30px;
+	margin-left: 25px;
+	font-size: 20px;
+	padding-left: 10px;
+	background-color: #FFFFFF77;
+}
+#boxlogbottom{
+	width: 300px;
+	height: 80px;
+	float:left;
+	border: solid;
+	border-width: 1px 0px 0px 0px;
+	border-color: #00000 #000000 #000000 #000000;
+	background-color: yellow;
+  margin-top: 20px;
+}
+
+
+
+
+#submit{
+	width: 100px;
+	height: 40px;
+	font-size: 20px;
+	margin-left: 25px;
+  margin-top: 17px;
+  color: #0000CC;
+  font-family: italic;
+}
+
+
+#reset {
+  width: 100px;
   height: 40px;
-  background-color: #770000;
-  float: left;
-  border: solid;
-  border-width: 0px 0px 3px 0px;
-  border-color: #DD0000 #DD0000 #999999 #DD0000;
-  text-align: center;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 20px;
-  padding-top: 10px;
-}
-.link1:hover{
-  background-color: #FFFFFF;
-  color: #000000;
-}
-.link2{
-  width: 250px;
-  height: 20px;
-  background-color: #FF0000;
-  float: left;
-  border: solid;
-  border-width: 0px 0px 3px 0px;
-  border-color: #DD0000 #DD0000 #999999 #DD0000;
-  text-align: center;
-  text-decoration: none;
-  color: #FFFFFF;
-  font-size: 15px;
-  padding-top: 3px;
-}
-.link2:hover{
-  background-color: #770000;
-  color: #FFFFFF;
-}
-
-
-#blu{
-
-width: 50px;
+  font-size:20px;
+  margin-left: 35px;
+  color: #0000CC;
+  font-family: italic;
 
 
 }
